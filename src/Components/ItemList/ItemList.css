@@ -1,0 +1,12 @@
+/* Estilos para ItemList */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .col-md-3 {
+    margin: 10px;
+  }
+  

@@ -1,0 +1,47 @@
+/* Estilos para el card */
+.glowing-card {
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s;
+    border: 1px solid #ddd;
+    margin: 20px;
+    text-align: center;
+  
+    /* Estilos adicionales para el texto en el card */
+    .glowing-text {
+      color: #333;
+      transition: color 0.3s;
+    }
+  }
+  
+  /* Estilos para el contenedor de la imagen */
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Aumenta la altura para dar más espacio a las imágenes */
+  }
+  
+  /* Estilos para la imagen */
+  .card-image {
+    width: auto; /* Permite que el ancho se ajuste automáticamente */
+    height: 100%; /* Mantiene la relación de aspecto de las imágenes */
+    transition: transform 0.3s;
+  }
+  
+  /* Estilos cuando se pasa el mouse sobre el card */
+  .glowing-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
+  }
+  
+  /* Estilos cuando se pasa el mouse sobre la imagen */
+  .glowing-card:hover .card-image {
+    transform: scale(1.1);
+  }
+  
+  /* Estilos cuando se pasa el mouse sobre el texto en el card */
+  .glowing-card:hover .glowing-text {
+    color: #007bff;
+  }
+  
